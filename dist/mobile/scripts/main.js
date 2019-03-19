@@ -33,7 +33,7 @@ $(ConnManager = function () {
         // Since the mobile web app and tv app are hosted from the same place
         // We will use a little javascript to determine the tv app url
         //var tvAppUrl = window.location.href.replace('/mobile','/tv');
-		var tvAppUrl = "http://192.168.1.104:3000/tv/";
+		var tvAppUrl = "http://rummykub-rummykub.7e14.starter-us-west-2.openshiftapps.com/tv/";
 
         app = service.application(tvAppUrl, 'ru.vitaly.multiscreen.rcube');
 
